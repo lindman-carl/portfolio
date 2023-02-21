@@ -9,7 +9,27 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        activityText: "text 10s cubic-bezier(.3,.1,.3,.9) infinite",
+      },
+      keyframes: {
+        activityText: {
+          "0%, 100%": {
+            "background-size": "200% 200%",
+            "background-position": "left center",
+            opacity: "0",
+          },
+          "25%, 75%": {
+            opacity: "1",
+          },
+          "50%": {
+            "background-size": "200% 200%",
+            "background-position": "right center",
+          },
+        },
+      },
+    },
   },
   plugins: [],
 };
