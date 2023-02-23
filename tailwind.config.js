@@ -10,11 +10,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "carbon-fibre": "url('/carbon-fibre.png')",
+      },
       animation: {
-        activityText: "text 10s cubic-bezier(.3,.1,.3,.9) infinite",
+        text: "text 10s cubic-bezier(.3,.1,.3,.9) infinite",
       },
       keyframes: {
-        activityText: {
+        text: {
           "0%, 100%": {
             "background-size": "200% 200%",
             "background-position": "left center",
