@@ -1,0 +1,37 @@
+[
+  {
+    "id": "seasweeper",
+    "title": "Sea Sweeper",
+    "url": "https://seasweeper.lindman.dev/",
+    "github": "https://github.com/lindman-carl/seasweeper",
+    "features": [
+      "'Minesweeperesq' gameplay",
+      "Innovative gameplay elements",
+      "Randomly generated islands",
+      "Fully responsive design for desktop and mobile",
+      "Automatically updated daily challenges",
+      "Highscore list and leaderboard"
+    ],
+    "technologies": [
+      "React.js",
+      "Express.js",
+      "TypeScript",
+      "TailwindCSS",
+      "Redux",
+      "MongoDB",
+      "E2E testing with Cypress",
+      "Unit testing with Jest"
+    ],
+    "about": [
+      "Sea Sweeper is the ultimate web based deduction game. The game is heavily inspired by the classic game Minesweeper, but with an difficulty increase.",
+      "Sea Sweeper brings randomly generated islands and archipelago to your mine sweeping needs. It features multiple different island generations modes, from the more sparsely populated Pacific Islands to the dense and difficult Archipelago. Why not give the daily challenge a go and compete for the daily trophy and associated leaderboard places!",
+      "Sea Sweeper was with 850 upvotes, the most upvoted showcase on r/webdev's 'Showoff Saturday' 04/02-23"
+    ],
+    "images": [
+      "/portfolio/seasweeper-logo-960.webp",
+      "/portfolio/seasweeper-sc-1.webp",
+      "/portfolio/seasweeper-sc-2.webp",
+      "/portfolio/seasweeper-sc-3.webp"
+    ]
+  }
+]
